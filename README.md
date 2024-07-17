@@ -1,4 +1,4 @@
-## Hi there 👋
+## Olá, seja bem-vindo(a) ao meu perfil 👋
 
 <!--
 **Miqueias97/Miqueias97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
