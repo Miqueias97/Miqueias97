@@ -78,4 +78,4 @@
 
 <hr>
 
-**Palavras-chaves:** Ciência de Dados | Big Data | KPI | WMS | Relatórios gerenciais | ETL | Estatística | Power BI | Excel | Python | Indicadores | Lean Six Sigma | R programming language | Dashboard | R Project | Logística | OKR | Supply Chain | Green Belt Six Sigma
+**Palavras-chaves:** Ciência de Dados | Big Data | KPI | WMS | Relatórios gerenciais | ETL | Estatística | Power BI | Excel | Python | Indicadores | Lean Six Sigma | R programming language | Dashboard | R Project | Logística | OKR | Supply Chain | Green Belt Six Sigma | API Rest | Django | Flask
