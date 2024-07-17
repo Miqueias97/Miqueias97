@@ -25,12 +25,12 @@
 
 #### Estagiário de Supply Intelligence
 *  **Cobli - 06/2023 á 02/2024**
-    * Contribuir ativamente para a gestão e execução da estratégia da cadeia de suprimentos, monitorando e avaliando os indicadores de desempenho;
-    * Consolidar e analisar o desempenho e os custos das diferentes áreas da cadeia de suprimentos, identificando oportunidades de melhoria;
-    * Elaborar e apresentar relatórios mensais de desempenho da área, destacando resultados e propondo ações corretivas e preventivas;
-    * Participar ativamente de reuniões com as equipes para análise de dados e discussão de oportunidades de otimização dos processos;
-    * Apoiar a gestão das iniciativas e planos de melhoria elaborados nos fóruns de performance, garantindo a sua implementação eficaz;
-    * Participar do treinamento e mapeamento dos fluxos da cadeia de suprimentos, identificando oportunidades de otimização e simplificação dos processos;
+    * Contribuir ativamente para a gestão e execução da estratégia da cadeia de suprimentos, monitorando e avaliando os indicadores de desempenho
+    * Consolidar e analisar o desempenho e os custos das diferentes áreas da cadeia de suprimentos, identificando oportunidades de melhoria
+    * Elaborar e apresentar relatórios mensais de desempenho da área, destacando resultados e propondo ações corretivas e preventivas
+    * Participar ativamente de reuniões com as equipes para análise de dados e discussão de oportunidades de otimização dos processos
+    * Apoiar a gestão das iniciativas e planos de melhoria elaborados nos fóruns de performance, garantindo a sua implementação eficaz
+    * Participar do treinamento e mapeamento dos fluxos da cadeia de suprimentos, identificando oportunidades de otimização e simplificação dos processos
     * Realizar pesquisas de benchmarking para identificar as melhores práticas logísticas, buscando aprimorar continuamente os processos da cadeia de suprimentos.
 
 #### Assistente de Supply Intelligence |||
@@ -39,19 +39,19 @@
     * Preparar os dados para análise de forma eficiente, facilitando a descoberta de insights.
     * Realizar análises avançadas com machine learning e inteligência artificial para identificar padrões e anomalias.
     * Dominar ferramentas líderes de mercado para manipular, visualizar e analisar dados com eficiência.
-    Criação de Dashboards:
+
     * Desenvolver dashboards interativos e informativos que auxiliem na tomada de decisões.
+
     * Utilizar ferramentas de BI para criar dashboards personalizados que atendam às necessidades dos usuários.
     * Garantir que os dashboards estejam atualizados e sejam facilmente acessíveis.
-    Suporte à Definição da Estratégia e Tomada de Decisão:
+
     * Colaborar com os gestores na definição da estratégia da empresa, fornecendo insights baseados em dados.
     * Comunicar resultados e insights de forma clara e concisa para diferentes públicos.
     * Atuar como parceiro estratégico dos gestores, auxiliando-os na tomada de decisões informadas.
-    Desenvolvimento de Relatórios e Apresentações:
+
     * Criar relatórios detalhados e personalizados que atendam às necessidades dos usuários.
     * Elaborar apresentações claras e envolventes que comuniquem os resultados e insights de forma eficaz.
     * Utilizar ferramentas de design e apresentação para criar materiais visuais impactantes.
-    Melhoria Contínua e Inovação:
     * Monitorar e avaliar os processos para identificar oportunidades de melhoria.
     * Propor e implementar soluções inovadoras para aprimorar a análise e a tomada de decisão, agregando valor à organização.
  
