@@ -6,9 +6,11 @@ Profissional graduado em Ciência de Dados e Big Data, com ampla experiência em
 
 #### Experiência:
 
- • Ampla experiência em rotinas de operações logísticas.
+ • Experiência em rotinas de operações logísticas.
  • Experiência na gestão e realização de inventários e contagens cíclicas.
  • Elaboração de Dashboards e KPI´s para acompanhamento das rotinas operacionais.
+ • Desenvolvimento de automações.
+ • Desenvolvimento de ações de melhoria continua com aplicação da metodologia Lean six Sigma
 
 #### Habilidades:
 
