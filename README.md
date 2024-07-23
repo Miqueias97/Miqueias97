@@ -1,7 +1,7 @@
 <h1 align="center">Olá 👋, sou o Miqueas</h1>
 <h3 align="center">Sou formado em Ciência de Dados e Big Data e tenho como hobbies o desenvolvimento de aplicações web.</h3>
 
-< p alinhar="esquerda" style="border-radius: 50%"> <img src="https://avatars.githubusercontent.com/u/95548165?v=4&label=Profile%20views&color=0e75b6&style=flat" alt="miqueias97" style="border-radius: 50%" /> </p>
+< p alinhar="esquerda"> <img src="https://komarev.com/ghpvc/?username=miqueias97&label=Profile%20views&color=0e75b6&style=flat" alt="miqueias97" /> </p>
 
 <p alinhar= "esquerda"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username= miqueias97" alt="miqueias97" /></a> </p>
 
@@ -15,7 +15,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=miqueias97&show_icons=true&locale=en&layout=compact" alt="miqueias97" /></p>
 
-<p> <img align="center" src="https://github-readme-stats.vercel.app/api?username=miqueias97&show_icons=true&locale=en" alt="miqueias97" /></p> <p>
+<p> <img align="center" src="https://github-readme-stats.vercel.app/api?username=miqueias97&show_icons=true&locale=en" alt="miqueias97" /></p> <p>
 
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=miqueias97&" alt="miqueias97" /></p>
-
