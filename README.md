@@ -1,81 +1,20 @@
-## Olá, seja bem-vindo(a) ao meu perfil 👋
+<h1 align="center">Olá 👋, sou o Miqueas</h1>
+<h3 align="center">Sou formado em Ciência de Dados e Big Data e tenho como hobbies o desenvolvimento de aplicações web.</h3>
 
-### Sobre:
-   Profissional graduado em Ciência de Dados e Big Data pela Universidade Metodista de São Paulo, com ampla experiência em rotinas de operações logísticas.
+< p alinhar="esquerda"> <img src="https://komarev.com/ghpvc/?username=miqueias97&label=Profile%20views&color=0e75b6&style=flat" alt="miqueias97" /> </p>
 
-<hr>
+<p alinhar= "esquerda"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username= miqueias97" alt="miqueias97" /></a> </p>
 
-### Experiência:
+<h3 align="left">Conecte-se comigo:</h3>
+<p align="left">
+<a href="https://linkedin.com/pt/https://www.linkedin.com/pt/miqueias-nascimento-0072b2161" target="blank"><img align="center" src="https:/ /raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ miqueias-nascimento-0072b2161" height="30" width="40" /></a>
+</p>
 
-#### Conferente de Estoques
-* **Sonda Supermercados - 06/2016 á 01/2018**
-    * Realizar a conferência de materiais por meio da utilização de um coletor de dados integrado ao sistema de gerenciamento de armazém (WMS).
+<h3 align="left">Idiomas e Ferramentas:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" largura="40" altura="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" largura="40" altura="40"/> </a> </p>githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
 
-#### Separador de Distribuição
-*  **Santos Brasil - 11/2018 á 06/2022**
-    * Realizar a separação de materiais utilizando coletores de dados integrados ao sistema de gerenciamento de armazém (WMS).
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=miqueias97&show_icons=true&locale=en&layout=compact" alt="miqueias97" /></p>
 
-#### Assistente de Logística
-*  **Santos Brasil - 06/2022 á 05/2023**
-    * Prestar suporte às operações logísticas por meio da análise das distribuições de produtos, gestão de estoques, realização de inventários e acompanhamento das rotinas operacionais.
+<p> <img align="center" src="https://github-readme-stats.vercel.app/api?username=miqueias97&show_icons=true&locale=en" alt="miqueias97" /></p> <p>
 
-    * Elaborar relatórios gerenciais e indicadores de desempenho operacional.
-
-    * Administrar perfis de acesso e gerenciar a estrutura operacional do sistema WMS, incluindo a criação de perfis de usuário, cadastro de produtos e manutenção e criação de zonas de separação.
-
-#### Estagiário de Supply Intelligence
-*  **Cobli - 06/2023 á 02/2024**
-    * Contribuir ativamente para a gestão e execução da estratégia da cadeia de suprimentos, monitorando e avaliando os indicadores de desempenho
-    * Consolidar e analisar o desempenho e os custos das diferentes áreas da cadeia de suprimentos, identificando oportunidades de melhoria
-    * Elaborar e apresentar relatórios mensais de desempenho da área, destacando resultados e propondo ações corretivas e preventivas
-    * Participar ativamente de reuniões com as equipes para análise de dados e discussão de oportunidades de otimização dos processos
-    * Apoiar a gestão das iniciativas e planos de melhoria elaborados nos fóruns de performance, garantindo a sua implementação eficaz
-    * Participar do treinamento e mapeamento dos fluxos da cadeia de suprimentos, identificando oportunidades de otimização e simplificação dos processos
-    * Realizar pesquisas de benchmarking para identificar as melhores práticas logísticas, buscando aprimorar continuamente os processos da cadeia de suprimentos.
-
-#### Assistente de Supply Intelligence |||
-*  **Cobli - 06/2023 á 02/2024**
-    * Coletar dados de diversas fontes de forma automatizada e segura, garantindo sua integridade.
-    * Preparar os dados para análise de forma eficiente, facilitando a descoberta de insights.
-    * Realizar análises avançadas com machine learning e inteligência artificial para identificar padrões e anomalias.
-    * Dominar ferramentas líderes de mercado para manipular, visualizar e analisar dados com eficiência.
-
-    * Desenvolver dashboards interativos e informativos que auxiliem na tomada de decisões.
-
-    * Utilizar ferramentas de BI para criar dashboards personalizados que atendam às necessidades dos usuários.
-    * Garantir que os dashboards estejam atualizados e sejam facilmente acessíveis.
-
-    * Colaborar com os gestores na definição da estratégia da empresa, fornecendo insights baseados em dados.
-    * Comunicar resultados e insights de forma clara e concisa para diferentes públicos.
-    * Atuar como parceiro estratégico dos gestores, auxiliando-os na tomada de decisões informadas.
-
-    * Criar relatórios detalhados e personalizados que atendam às necessidades dos usuários.
-    * Elaborar apresentações claras e envolventes que comuniquem os resultados e insights de forma eficaz.
-    * Utilizar ferramentas de design e apresentação para criar materiais visuais impactantes.
-    * Monitorar e avaliar os processos para identificar oportunidades de melhoria.
-    * Propor e implementar soluções inovadoras para aprimorar a análise e a tomada de decisão, agregando valor à organização.
- 
-<hr>
-
-### Habilidades:
-
- * **Mineração de dados:** Realizar coleta de dados de diversas fontes por meio de técnicas de **web scraping**, consultas **SQL**, consumo de **API`s** e outras fontes.
-
- * **Análise de dados:** Extração de insights valiosos para otimizar processos e tomar decisões estratégicas.
-
- * **Desenvolvimento de dashboards e KPIs:** Criação de visualizações interativas para acompanhar OKRs e KPIs.
-
- * **Rotinas de ETL:** Extração, transformação e carregamento de dados para análise.
-
- * **Consumo de APIs:** Integração com fontes de dados externas para enriquecer análises.
- * **Melhoria contínua:** Implementação de projetos Lean Six Sigma para reduzir custos e aumentar a eficiência.
-
- * **Excelência operacional:** Desenvolvimento de ações para aprimorar a qualidade e a produtividade.
-
- * **Gestão de inventários:** Controle de estoque preciso e eficiente.
-
- * **Desenvolvimento de automações:** Análise de fluxos de trabalho e desenvolvimento de automações visando o aumento da eficiência operacional e redução de erros.
-
-<hr>
-
-**Palavras-chaves:** Ciência de Dados | Big Data | KPI | WMS | Relatórios gerenciais | ETL | Estatística | Power BI | Excel | Python | Indicadores | Lean Six Sigma | R programming language | Dashboard | R Project | Logística | OKR | Supply Chain | Green Belt Six Sigma | API Rest | Django | Flask
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=miqueias97&" alt="miqueias97" /></p>
