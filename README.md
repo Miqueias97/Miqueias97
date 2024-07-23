@@ -1,7 +1,7 @@
 <h1 align="center">Olá 👋, sou o Miqueas</h1>
 <h3 align="center">Sou formado em Ciência de Dados e Big Data e tenho como hobbies o desenvolvimento de aplicações web.</h3>
 
-< p alinhar="esquerda"> <img src="https://komarev.com/ghpvc/?username=Miqueias97&label=Profile%20views&color=0e75b6&style=flat" alt="miqueias97" /> </p>
+< p alinhar="esquerda"> <img src="https://avatars.githubusercontent.com/u/95548165?v=4&label=Profile%20views&color=0e75b6&style=flat" alt="miqueias97" /> </p>
 
 <p alinhar= "esquerda"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username= miqueias97" alt="miqueias97" /></a> </p>
 
