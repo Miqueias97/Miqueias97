@@ -1,4 +1,4 @@
-<h1 align="center">Olá 👋, sou o Miqueas</h1>
+<h1 align="center">Olá 👋, sou o Miqueias</h1>
 <br>
 <div class="container" style="display: flex; flex-direction: row; border: 1px solid; border-radius: 2%;">
     <div class="mb-3" style="margin-top: 0.5rem;">
