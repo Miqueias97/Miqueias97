@@ -5,9 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miqueias97" alt="miqueias97" /></a> </p>
 
+- 🔭 Em desenvolvimento... [Análise de coHort no streamlit](#)
+
+- 📫 How to reach me **miqueiasnascimentonp@hotmail.com**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/miqueias-nascimento-0072b2161" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/miqueias-nascimento-0072b2161" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/miqueias-nascimento-0072b2161" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/miqueias-nascimento-0072b2161" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
