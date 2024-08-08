@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miqueias97" alt="miqueias97" /></a> </p>
 
-- Case SuperStore 👷 [Case SuperStore](https://miqueias97-case-superstore-appmain-0ynkig.streamlit.app/)
+- 👷 Case SuperStore [Case SuperStore](https://miqueias97-case-superstore-appmain-0ynkig.streamlit.app/)
 - 🔭 Análise de coHort [Análise de coHort no streamlit](https://miqueias97-cohort-appapp-dj2z7k.streamlit.app/)
 
 - 📫 How to reach me **miqueiasnascimentonp@hotmail.com**
