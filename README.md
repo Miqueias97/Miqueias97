@@ -16,8 +16,7 @@ Sou **Engenheiro de Software** com uma trajetória pouco comum:
 iniciei na **linha de frente das operações logísticas** e evoluí para a **arquitetura de sistemas distribuídos de alta performance**.
 
 Essa vivência me deu algo raro na engenharia de software:  
-👉 uma visão **pragmática e orientada a impacto real**.  
-Eu entendo o custo de **1ms de latência** tanto no código quanto no mundo físico.
+👉 uma visão **pragmática e orientada a impacto real**.
 
 Hoje, atuo projetando e evoluindo **ecossistemas orientados a eventos**, resilientes e preparados para escalar — técnica e operacionalmente.
 
@@ -72,7 +71,7 @@ Se você quer conversar sobre **Kafka**, **sistemas distribuídos**, **Agentes d
 ## 🔗 Conecte-se comigo
 
 <p align="left">
-<a href="https://www.linkedin.com/in/miqueias-nascimento" target="_blank">
+<a href="[https://www.linkedin.com/in/miqueias-nascimento](https://www.linkedin.com/in/miqueias-nascimento-0072b2161 )" target="_blank">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/>
 </a>
 </p>
