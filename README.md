@@ -17,7 +17,7 @@
 <sub><b>📡 LIVE VISITOR COUNTER</b></sub>
 
 <a href="https://github.com/Miqueias97">
-  <img src="https://profile-counter.glitch.me/Miqueias97/count.svg" alt="Visitor Counter"/>
+  <img src="https://count.getloli.com/get/@Miqueias97?theme=moebooru" alt="Visitor Counter"/>
 </a>
 
 </div>
