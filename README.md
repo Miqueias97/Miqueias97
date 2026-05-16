@@ -1,591 +1,498 @@
-<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                                                                          ║ -->
-<!-- ║   MIQUEIAS PEREIRA  ::  command_center.init()                            ║ -->
-<!-- ║   distributed_systems / ai_agents / cloud_native                         ║ -->
-<!-- ║                                                                          ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+<div align="center">
 
-<a id="top"></a>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          HERO  ::  CINEMATIC HEADER                       -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:00E0FF,70:7C3AED,100:EC4899&height=260&section=header&text=MIQUEIAS%20PEREIRA&fontColor=ffffff&fontSize=58&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20AI%20Agents&descAlignY=58&descSize=18&animation=fadeIn" alt="header" />
-</p>
-
-<p align="center">
-  <a href="#top">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00E0FF&center=true&vCenter=true&multiline=false&width=820&height=46&lines=%3E+initializing+command_center...;%3E+booting+event-driven+runtime+%E2%9C%93;%3E+orchestrating+AI+agents+%E2%9C%93;%3E+streaming+telemetry+%40+real-time+%E2%9C%93;%3E+ready_for_production_%E2%96%88" alt="typing" />
-  </a>
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          STATUS BAR  ::  TELEMETRY                        -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00E0FF?style=for-the-badge&labelColor=0D1117&logo=githubactions&logoColor=00E0FF" />
-  <img src="https://img.shields.io/badge/RUNTIME-PRODUCTION-7C3AED?style=for-the-badge&labelColor=0D1117&logo=kubernetes&logoColor=7C3AED" />
-  <img src="https://img.shields.io/badge/REGION-SA--EAST--1-EC4899?style=for-the-badge&labelColor=0D1117&logo=amazonaws&logoColor=EC4899" />
-  <img src="https://img.shields.io/badge/UPTIME-99.99%25-00E0FF?style=for-the-badge&labelColor=0D1117&logo=datadog&logoColor=00E0FF" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Miqueias97">
-    <img src="https://komarev.com/ghpvc/?username=Miqueias97&label=SESSIONS&color=0e75b6&style=for-the-badge" alt="visitors" />
-  </a>
-  <a href="https://www.linkedin.com/in/miqueias-pereira/">
-    <img src="https://img.shields.io/badge/CHANNEL-LINKEDIN-7C3AED?style=for-the-badge&labelColor=0D1117&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:miqueias.pereira@cobli.co">
-    <img src="https://img.shields.io/badge/SIGNAL-OPEN-EC4899?style=for-the-badge&labelColor=0D1117&logo=protonmail&logoColor=EC4899" />
-  </a>
-  <img src="https://img.shields.io/github/followers/Miqueias97?style=for-the-badge&labelColor=0D1117&color=00E0FF&logo=github&logoColor=00E0FF&label=NODES" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          SYSTEM OVERVIEW                                  -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 01 `</samp> &nbsp; SYSTEM OVERVIEW &nbsp; <kbd>~/whoami</kbd>
-
-<table>
-<tr>
-<td width="62%" valign="top">
-
-```bash
-┌─[ miqueias@command-center ]─[ ~ ]
-└──╼ $ cat ./identity.json
-```
-
-```jsonc
-{
-  "role"      : "Software Engineer",
-  "focus"     : ["distributed_systems", "ai_agents", "cloud_native"],
-  "origin"    : "logistics_operations → systems_architecture",
-  "mindset"   : "operational vision + architectural depth",
-  "stack"     : "kotlin · spring · kafka · k8s · langchain",
-  "currently" : "scaling event-driven platforms @ Cobli",
-  "principles": [
-    "pragmatism beats hype",
-    "design for failure",
-    "observability is a feature",
-    "events > requests"
-  ]
-}
-```
-
-> Comecei na **operação logística**, vendo de perto onde sistemas críticos
-> falham no mundo real. Carreguei essa visão de chão de fábrica para
-> dentro da engenharia — hoje desenho **arquiteturas distribuídas**,
-> **agentes de IA** e **pipelines de eventos** que não podem cair.
->
-> Construo software com a mesma lógica de quem opera um centro de
-> distribuição: **latência importa, falhas acontecem, e o sistema
-> precisa continuar respirando**.
-
-</td>
-<td width="38%" valign="top">
+# 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:7C3AED,100:00E0FF&height=8&section=header" />
 
 <br/>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.gif" width="280" alt="terminal" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:00E0FF,50:7C3AED,75:EC4899,100:0D1117&height=280&section=header&text=MIQUEIAS%20PEREIRA&fontColor=00E0FF&fontSize=70&fontAlignY=45&desc=Engineering%20%2B%20Systems%20%2B%20AI&descSize=22&descAlignY=65&animation=fadeIn&stroke=7C3AED" alt="header" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OPERATIONAL-DNA-00E0FF?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/ARCHITECTURAL-MINDSET-7C3AED?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/CLOUD-NATIVE-EC4899?style=flat-square&labelColor=0D1117" />
-</p>
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=00E0FF&center=true&vCenter=true&width=900&height=60&lines=%3E++initializing+command_center...;%3E++orchestrating+distributed+systems+%E2%9C%93;%3E++streaming+telemetry+%40+real-time+%E2%9C%93;%3E++ready_for_production_%E2%96%88)](https://github.com/Miqueias97)
+
+<br/>
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px auto; max-width: 900px;">
+
+![Status](https://img.shields.io/badge/STATUS-ONLINE-00E0FF?style=for-the-badge&labelColor=0D1117&logo=githubactions&logoColor=00E0FF&logoWidth=20)
+![Runtime](https://img.shields.io/badge/RUNTIME-PRODUCTION-7C3AED?style=for-the-badge&labelColor=0D1117&logo=kubernetes&logoColor=7C3AED&logoWidth=20)
+![Region](https://img.shields.io/badge/REGION-SA--EAST--1-EC4899?style=for-the-badge&labelColor=0D1117&logo=amazonaws&logoColor=EC4899&logoWidth=20)
+![Uptime](https://img.shields.io/badge/UPTIME-99.99%25-00E0FF?style=for-the-badge&labelColor=0D1117&logo=datadog&logoColor=00E0FF&logoWidth=20)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:7C3AED,100:00E0FF&height=2&section=header" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 COMMAND CENTER INITIALIZED
+
+<table>
+<tr>
+<td width="100%">
+
+**A Software Engineer with operational DNA.**
+
+Started in logistics operations, evolved into systems architecture. I design **event-driven platforms**, **AI agents**, and **cloud-native architectures** that operate under pressure.
+
+The pattern: take production constraints seriously, architect for failure, observe everything.
+
+Currently orchestrating distributed systems and AI agents @ **Cobli** — where thousands of vehicles stream telemetry every second, and downtime costs money.
 
 </td>
 </tr>
 </table>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          CURRENT OPERATIONS                               -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+</div>
 
-## <samp>` 02 `</samp> &nbsp; CURRENT OPERATIONS &nbsp; <kbd>~/mission</kbd>
+---
 
-<table>
+<div align="center">
+
+## 📡 NETWORK STATUS
+
+<table style="margin: 0 auto; border-collapse: collapse;">
 <tr>
-<td align="center" width="20%">
-  <img src="https://img.shields.io/badge/-COBLI-00E0FF?style=for-the-badge&labelColor=0D1117" /><br/>
-  <sub><b>Telematics</b></sub><br/>
-  <sub>connected fleet</sub>
+<td align="center" width="23%" style="padding: 16px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.05), rgba(124,58,237,0.05));">
+
+<h3 style="color: #00E0FF; margin-top: 0;">Connect</h3>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miqueias-pereira/)
+
 </td>
-<td width="80%">
+<td align="center" width="23%" style="padding: 16px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(124,58,237,0.05), rgba(236,72,153,0.05));">
 
-**Engenheiro de software** numa plataforma que conecta **milhares de veículos em tempo real** — telemetria, eventos, posições, comandos e inteligência operacional fluindo a cada segundo.
+<h3 style="color: #7C3AED; margin-top: 0;">Build</h3>
 
-```yaml
-mission:
-  - design event-driven backbones for high-throughput telemetry
-  - build AI agents that automate operational decisions
-  - keep latency low, idempotency tight, and pipelines resilient
-  - bridge legacy systems with cloud-native services
-  - turn raw vehicle data into actionable signals
-```
+[![GitHub](https://img.shields.io/badge/GitHub-Repositories-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Miqueias97)
+
+</td>
+<td align="center" width="23%" style="padding: 16px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(236,72,153,0.05), rgba(0,224,255,0.05));">
+
+<h3 style="color: #EC4899; margin-top: 0;">Message</h3>
+
+[![Email](https://img.shields.io/badge/Email-Signal-EC4899?style=flat-square&logo=gmail&logoColor=white)](mailto:miqueias.pereira@cobli.co)
+
+</td>
+<td align="center" width="23%" style="padding: 16px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.05), rgba(124,58,237,0.05));">
+
+<h3 style="color: #00E0FF; margin-top: 0;">Follow</h3>
+
+[![Followers](https://img.shields.io/github/followers/Miqueias97?style=flat-square&logo=github&logoColor=white&labelColor=0D1117&color=00E0FF)](https://github.com/Miqueias97)
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/KAFKA-Streaming-00E0FF?style=flat-square&logo=apachekafka&logoColor=00E0FF&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/DEBEZIUM-CDC-7C3AED?style=flat-square&logo=debezium&logoColor=7C3AED&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/MCP-AI%20Agents-EC4899?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/K8S-Orchestration-00E0FF?style=flat-square&logo=kubernetes&logoColor=00E0FF&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/DATADOG-Observability-7C3AED?style=flat-square&logo=datadog&logoColor=7C3AED&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/SPRING-Boot-EC4899?style=flat-square&logo=spring&logoColor=EC4899&labelColor=0D1117" />
-</p>
+</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
+---
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          CORE CAPABILITIES                                -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<div align="center">
 
-## <samp>` 03 `</samp> &nbsp; CORE CAPABILITIES &nbsp; <kbd>~/modules</kbd>
+## 💼 CURRENT MISSION
 
-<table>
+<table style="margin: 0 auto; border-collapse: collapse; width: 100%; max-width: 1000px;">
 <tr>
-<td width="50%" valign="top">
+<td width="30%" align="center" style="padding: 20px; background: linear-gradient(135deg, #00E0FF15, #7C3AED15); border-radius: 12px; border-left: 3px solid #00E0FF;">
 
-### <img src="https://img.shields.io/badge/01-00E0FF?style=flat-square&labelColor=0D1117" /> &nbsp; Event-Driven Architecture
+**COBLI**  
+*Telematics Platform*
 
-```diff
-+ kafka topics    : producers / consumers / streams
-+ cdc pipelines   : debezium + postgres → kafka
-+ patterns        : outbox · saga · idempotency keys
-+ guarantees      : at-least-once → exactly-once semantics
-```
-
-Desenho **backbones de eventos** que sustentam telemetria contínua, decoupling de domínios e replay de estado. Foco em **idempotência**, **ordering** e **schema evolution**.
+Connected Fleet Intelligence
 
 </td>
-<td width="50%" valign="top">
+<td width="70%" style="padding: 20px;">
 
-### <img src="https://img.shields.io/badge/02-7C3AED?style=flat-square&labelColor=0D1117" /> &nbsp; AI Agents & Orchestration
+Designing **event-driven backbones** for real-time telemetry at scale. Thousands of connected vehicles streaming position, diagnostics, and operational signals every second.
 
-```diff
-+ frameworks      : langchain · mastra · mcp
-+ patterns        : tool-use · planner-executor · reflection
-+ integrations    : retrieval · function-calling · memory
-+ deployment      : agents-as-services, observed end-to-end
-```
+**Mission**: Bridge legacy systems with cloud-native services. Build AI agents that automate operational decisions. Keep latency sub-100ms and uptime north of 99.99%.
 
-Construo **agentes de IA** que não são chatbots — são **operadores autônomos** plugados em sistemas reais, com ferramentas, contexto persistente e governança.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/03-EC4899?style=flat-square&labelColor=0D1117" /> &nbsp; High-Performance Backend
-
-```diff
-+ languages       : kotlin · java · ktor · spring boot
-+ paradigms       : ddd · hexagonal · clean architecture
-+ data            : postgres · redis · jpa · jooq
-+ scale           : low-latency apis @ p99 sub-100ms
-```
-
-APIs e serviços críticos pensados em **boundaries de domínio**, **testabilidade** e **performance previsível** sob carga real.
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://img.shields.io/badge/04-00E0FF?style=flat-square&labelColor=0D1117" /> &nbsp; Modern Frontend
-
-```diff
-+ stack           : react · next.js · typescript · tailwind
-+ patterns        : server components · suspense · edge
-+ ux              : data-dense dashboards · real-time UIs
-+ delivery        : vercel · ci/cd · preview deployments
-```
-
-Interfaces que **expõem complexidade sem virar ruído** — dashboards de operação, telemetria e ferramentas internas com tipagem forte ponta a ponta.
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### <img src="https://img.shields.io/badge/05-7C3AED?style=flat-square&labelColor=0D1117" /> &nbsp; Observability & DevOps
-
-```diff
-+ pipelines       : github actions · terraform · argo
-+ runtime         : kubernetes · docker · aws (ecs · eks · lambda)
-+ signals         : metrics · logs · traces · slos
-+ tooling         : datadog · grafana · opentelemetry
-```
-
-Tudo que entra em produção entra **observável**. SLOs, dashboards, alertas com contexto e *runbooks* tratados como código. Plataforma é produto.
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          IMPACT METRICS                                   -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 04 `</samp> &nbsp; IMPACT METRICS &nbsp; <kbd>~/telemetry</kbd>
-
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/THROUGHPUT-00E0FF?style=for-the-badge&labelColor=0D1117&logo=apachekafka&logoColor=00E0FF" /><br/><br/>
-  <h2>10k+ <sub>msg/s</sub></h2>
-  <sub>event pipelines<br/>sustained load</sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/LATENCY-7C3AED?style=for-the-badge&labelColor=0D1117&logo=fastapi&logoColor=7C3AED" /><br/><br/>
-  <h2>&lt; 100ms <sub>p99</sub></h2>
-  <sub>core api<br/>response time</sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/MTTR-EC4899?style=for-the-badge&labelColor=0D1117&logo=datadog&logoColor=EC4899" /><br/><br/>
-  <h2>&lt; 15min</h2>
-  <sub>mean time<br/>to recovery</sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/UPTIME-00E0FF?style=for-the-badge&labelColor=0D1117&logo=statuspage&logoColor=00E0FF" /><br/><br/>
-  <h2>99.99%</h2>
-  <sub>availability<br/>critical services</sub>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img src="https://img.shields.io/badge/IDEMPOTENCY-7C3AED?style=for-the-badge&labelColor=0D1117" /><br/><br/>
-  <h2>100%</h2>
-  <sub>safe-retry<br/>by design</sub>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/SCALE-EC4899?style=for-the-badge&labelColor=0D1117&logo=kubernetes&logoColor=EC4899" /><br/><br/>
-  <h2>1000s</h2>
-  <sub>connected<br/>devices</sub>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/AI%20AGENTS-00E0FF?style=for-the-badge&labelColor=0D1117" /><br/><br/>
-  <h2>24/7</h2>
-  <sub>autonomous<br/>operators</sub>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/DEPLOYS-7C3AED?style=for-the-badge&labelColor=0D1117&logo=githubactions&logoColor=7C3AED" /><br/><br/>
-  <h2>daily</h2>
-  <sub>continuous<br/>delivery</sub>
-</td>
-</tr>
-</table>
-
-<p align="center"><sub><i>// signals representativos da operação em que atuo — não promessas, calibragem de calibre.</i></sub></p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          KEY DEPLOYMENTS                                  -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 05 `</samp> &nbsp; KEY DEPLOYMENTS &nbsp; <kbd>~/services</kbd>
-
-<details>
-<summary><b>&nbsp;⚡&nbsp; <code>event-pipeline/</code> &nbsp;·&nbsp; Kafka + Debezium CDC backbone</b></summary>
-<br/>
-
-```
-┌────────────┐     ┌──────────┐     ┌────────┐     ┌──────────────┐     ┌────────┐
-│ PostgreSQL │ ──▶ │ Debezium │ ──▶ │  Kafka │ ──▶ │  Consumers   │ ──▶ │  Sinks │
-│   (OLTP)   │     │  (CDC)   │     │ topics │     │ (kotlin/jvm) │     │  s3·dw │
-└────────────┘     └──────────┘     └────────┘     └──────────────┘     └────────┘
-                                         │
-                                         ▼
-                                 ┌──────────────────┐
-                                 │ stream processor │  ─→  real-time projections
-                                 │  (idempotent)    │  ─→  domain events out
-                                 └──────────────────┘
-```
-
-- **Outbox pattern** para escrita transacional consistente
-- **Schema registry** + evolução controlada
-- **DLQ** + replay seguro com chaves idempotentes
-- **Backpressure** monitorado via Datadog SLOs
-
-</details>
-
-<details>
-<summary><b>&nbsp;🤖&nbsp; <code>ai-agents/</code> &nbsp;·&nbsp; LangChain + MCP + Mastra orchestration</b></summary>
-<br/>
-
-```
-        ┌──────────────────────────────────────────────────────┐
-        │                  AI ORCHESTRATION                    │
-        │                                                      │
-        │   user  ─▶  planner  ─▶  executor  ─▶  reflector     │
-        │                │            │              │         │
-        │                ▼            ▼              ▼         │
-        │            [ tools ]   [ memory ]    [ critic ]      │
-        │                │            │                        │
-        │                ▼            ▼                        │
-        │           MCP servers · vector store · APIs          │
-        └──────────────────────────────────────────────────────┘
-```
-
-- Agentes plugados em **ferramentas reais** via MCP
-- **Memória persistente** + retrieval contextual
-- **Guardrails**, logging e *tracing* ponta-a-ponta
-- Deploy como **serviço** — escala, observa, versiona
-
-</details>
-
-<details>
-<summary><b>&nbsp;🧩&nbsp; <code>microservices/</code> &nbsp;·&nbsp; Kotlin · Spring · Ktor</b></summary>
-<br/>
-
-- Bounded contexts isolados, comunicação **assíncrona-first**
-- **Hexagonal architecture** com adapters explícitos
-- Contratos via **OpenAPI** + testes de contrato
-- **Resilience4j** para circuit-breaking, retry e bulkhead
-- Migrations versionadas com **Flyway**
-
-</details>
-
-<details>
-<summary><b>&nbsp;🚀&nbsp; <code>ci-cd/</code> &nbsp;·&nbsp; GitHub Actions + Terraform + ArgoCD</b></summary>
-<br/>
-
-- Pipelines reproduzíveis: build → test → scan → deploy
-- **IaC** com Terraform — cluster, IAM, networking, observability
-- **GitOps** via ArgoCD para sync declarativo
-- **Preview environments** por PR — zero "funciona na minha máquina"
-
-</details>
-
-<details>
-<summary><b>&nbsp;📡&nbsp; <code>observability/</code> &nbsp;·&nbsp; Datadog · OpenTelemetry · Grafana</b></summary>
-<br/>
-
-- **Three pillars**: metrics + logs + distributed traces
-- **SLOs** como código, com error budgets monitorados
-- **Alerting** com contexto — sem fadiga de plantão
-- **Runbooks** linkados direto do alerta
-
-</details>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          ARCHITECTURE STACK                               -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 06 `</samp> &nbsp; ARCHITECTURE STACK &nbsp; <kbd>~/toolbox</kbd>
-
-<table>
-<tr>
-<td align="center" width="20%"><b>BACKEND</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=kotlin,java,spring,gradle,nodejs,python" alt="backend" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>FRONTEND</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,vite,html,css" alt="frontend" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>DATA & STREAMING</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=kafka,postgres,redis,mongodb,prisma" alt="data" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Debezium-CDC-D32F2F?style=flat-square&logo=debezium&logoColor=white" />
-  <img src="https://img.shields.io/badge/Airflow-Orchestration-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>AI / AGENTS</b></td>
-<td>
-  <img src="https://img.shields.io/badge/LangChain-Agents-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-Protocol-7C3AED?style=flat-square" />
-  <img src="https://img.shields.io/badge/Mastra-Orchestration-EC4899?style=flat-square" />
-  <img src="https://img.shields.io/badge/OpenAI-API-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>INFRA & CLOUD</b></td>
-<td>
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,aws,terraform,githubactions,linux,bash" alt="infra" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>OBSERVABILITY</b></td>
-<td>
-  <img src="https://img.shields.io/badge/Datadog-APM-632CA6?style=flat-square&logo=datadog&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-Dashboards-F46800?style=flat-square&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-Traces-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-</td>
-</tr>
-<tr>
-<td align="center"><b>ARCHITECTURE</b></td>
-<td>
-  <img src="https://img.shields.io/badge/Event--Driven-00E0FF?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/DDD-7C3AED?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Hexagonal-EC4899?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Clean%20Architecture-00E0FF?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/CDC-7C3AED?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Microservices-EC4899?style=flat-square&labelColor=0D1117" />
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          GITHUB SIGNALS                                   -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 07 `</samp> &nbsp; GITHUB SIGNALS &nbsp; <kbd>~/activity</kbd>
-
-<p align="center">
-  <a href="https://github.com/Miqueias97">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Miqueias97&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E0FF&text_color=ffffff&icon_color=7C3AED&ring_color=EC4899" />
-  </a>
-  <a href="https://github.com/Miqueias97">
-    <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Miqueias97&theme=tokyonight&hide_border=true&background=0D1117&stroke=7C3AED&ring=00E0FF&fire=EC4899&currStreakLabel=00E0FF&sideLabels=ffffff&dates=ffffff" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Miqueias97">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miqueias97&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E0FF&text_color=ffffff&langs_count=10" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Miqueias97&bg_color=0D1117&color=00E0FF&line=7C3AED&point=EC4899&area=true&hide_border=true" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Miqueias97">
-    <img src="https://github-profile-trophy.vercel.app/?username=Miqueias97&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          DIFFERENTIAL                                     -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-## <samp>` 08 `</samp> &nbsp; DIFFERENTIAL &nbsp; <kbd>~/edge</kbd>
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-  <img src="https://img.shields.io/badge/-OPERATION%20%E2%86%92%20ARCHITECTURE-00E0FF?style=for-the-badge&labelColor=0D1117" /><br/><br/>
-  <sub>Carrego o reflexo da operação para dentro da arquitetura. Sei o custo real de um sistema lento, de um alerta ignorado, de um deploy mal pensado — porque já estive do <b>outro lado da tela</b>.</sub>
-</td>
-<td width="33%" valign="top" align="center">
-  <img src="https://img.shields.io/badge/-BUSINESS%20%E2%88%A9%20ENGINEERING-7C3AED?style=for-the-badge&labelColor=0D1117" /><br/><br/>
-  <sub>Não codifico no escuro. Conecto <b>produto, negócio e infra</b> numa só leitura — decisões técnicas com consciência de impacto operacional, financeiro e humano.</sub>
-</td>
-<td width="33%" valign="top" align="center">
-  <img src="https://img.shields.io/badge/-LEGACY%20%E2%87%84%20CLOUD%20NATIVE-EC4899?style=for-the-badge&labelColor=0D1117" /><br/><br/>
-  <sub>Construo a <b>ponte</b> entre o monolito que paga as contas e o cloud-native que sustenta o futuro. Migrações cirúrgicas, sem desligar a operação.</sub>
 </td>
 </tr>
 </table>
 
 <br/>
 
-> <samp>**`~/manifesto.md`**</samp>
+**Key Technologies:**
+![Kafka](https://img.shields.io/badge/Kafka-Streaming-00E0FF?style=flat-square&logo=apachekafka&logoColor=00E0FF&labelColor=0D1117)
+![Debezium](https://img.shields.io/badge/Debezium-CDC-7C3AED?style=flat-square&logoColor=7C3AED&labelColor=0D1117)
+![Kubernetes](https://img.shields.io/badge/K8S-Orchestration-00E0FF?style=flat-square&logo=kubernetes&logoColor=00E0FF&labelColor=0D1117)
+![Spring](https://img.shields.io/badge/Spring-Backend-EC4899?style=flat-square&logo=spring&logoColor=EC4899&labelColor=0D1117)
+![React](https://img.shields.io/badge/React-Frontend-00E0FF?style=flat-square&logo=react&logoColor=00E0FF&labelColor=0D1117)
+![Datadog](https://img.shields.io/badge/Datadog-Observability-7C3AED?style=flat-square&logo=datadog&logoColor=7C3AED&labelColor=0D1117)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🏗️ CORE CAPABILITIES
+
+<table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+<tr>
+<td width="50%" style="padding: 20px; border-right: 1px solid #333; border-bottom: 1px solid #333;">
+
+### 01 · Event-Driven Architecture
+
+**Kafka** | **Debezium** | **CDC Pipelines**
+
+Design scalable event backbones with guaranteed delivery semantics.
+
+- ✓ Outbox pattern for transactional consistency
+- ✓ Schema evolution with registry
+- ✓ Idempotency keys for safe retries
+- ✓ DLQ with replay capabilities
+
+**Signal**: 10k+ msg/s sustained throughput
+
+</td>
+<td width="50%" style="padding: 20px; border-bottom: 1px solid #333;">
+
+### 02 · AI Agents & Orchestration
+
+**LangChain** | **MCP** | **Mastra**
+
+Build autonomous operators integrated with real systems.
+
+- ✓ Tool-use patterns with guardrails
+- ✓ Persistent memory + RAG
+- ✓ Multi-step planning & reflection
+- ✓ Deploy as scalable services
+
+**Signal**: 24/7 autonomous orchestration
+
+</td>
+</tr>
+<tr>
+<td width="50%" style="padding: 20px; border-right: 1px solid #333; border-bottom: 1px solid #333;">
+
+### 03 · High-Performance Backend
+
+**Kotlin** | **Spring Boot** | **Ktor**
+
+Critical path APIs designed for production constraints.
+
+- ✓ Domain-driven design boundaries
+- ✓ Hexagonal architecture patterns
+- ✓ Circuit-breaking & resilience
+- ✓ Sub-100ms p99 latency
+
+**Signal**: &lt; 100ms p99 response time
+
+</td>
+<td width="50%" style="padding: 20px; border-bottom: 1px solid #333;">
+
+### 04 · Modern Frontend
+
+**React** | **Next.js** | **TypeScript**
+
+Data-dense dashboards that expose complexity without noise.
+
+- ✓ Server components & suspense patterns
+- ✓ Real-time operational UIs
+- ✓ End-to-end type safety
+- ✓ Edge deployment ready
+
+**Signal**: Vercel deployments with A/B testing
+
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding: 20px;">
+
+### 05 · Observability & DevOps
+
+**Datadog** | **Kubernetes** | **GitHub Actions** | **Terraform**
+
+Production-grade observability as a first-class requirement.
+
+- ✓ SLOs & error budgets
+- ✓ Distributed tracing end-to-end
+- ✓ GitOps with ArgoCD
+- ✓ IaC with Terraform
+
+**Signal**: &lt; 15min MTTR | 99.99% uptime
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 TELEMETRY DASHBOARD
+
+<table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+<tr>
+<td align="center" width="25%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.08), rgba(124,58,237,0.08));">
+
+<div style="font-size: 32px; color: #00E0FF; font-weight: bold; margin-bottom: 8px;">10k+</div>
+<div style="font-size: 13px; color: #999;">msg/s sustained</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Event throughput</div>
+
+</td>
+<td align="center" width="25%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.08));">
+
+<div style="font-size: 32px; color: #7C3AED; font-weight: bold; margin-bottom: 8px;">&lt;100ms</div>
+<div style="font-size: 13px; color: #999;">p99 latency</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">API response time</div>
+
+</td>
+<td align="center" width="25%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(236,72,153,0.08), rgba(0,224,255,0.08));">
+
+<div style="font-size: 32px; color: #EC4899; font-weight: bold; margin-bottom: 8px;">99.99%</div>
+<div style="font-size: 13px; color: #999;">uptime</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Critical services</div>
+
+</td>
+<td align="center" width="25%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.08), rgba(124,58,237,0.08));">
+
+<div style="font-size: 32px; color: #00E0FF; font-weight: bold; margin-bottom: 8px;">&lt;15min</div>
+<div style="font-size: 13px; color: #999;">MTTR</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Mean time to recovery</div>
+
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.08));">
+
+<div style="font-size: 32px; color: #7C3AED; font-weight: bold; margin-bottom: 8px;">100%</div>
+<div style="font-size: 13px; color: #999;">idempotency</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Safe by design</div>
+
+</td>
+<td align="center" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(236,72,153,0.08), rgba(0,224,255,0.08));">
+
+<div style="font-size: 32px; color: #EC4899; font-weight: bold; margin-bottom: 8px;">1000s</div>
+<div style="font-size: 13px; color: #999;">connected devices</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Fleet scale</div>
+
+</td>
+<td align="center" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.08), rgba(124,58,237,0.08));">
+
+<div style="font-size: 32px; color: #00E0FF; font-weight: bold; margin-bottom: 8px;">24/7</div>
+<div style="font-size: 13px; color: #999;">AI agents</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Autonomous operators</div>
+
+</td>
+<td align="center" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(124,58,237,0.08), rgba(236,72,153,0.08));">
+
+<div style="font-size: 32px; color: #7C3AED; font-weight: bold; margin-bottom: 8px;">daily</div>
+<div style="font-size: 13px; color: #999;">deployments</div>
+<div style="font-size: 12px; color: #666; margin-top: 8px;">Continuous delivery</div>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🔧 TECHNOLOGY STACK
+
+<table style="margin: 0 auto; border-collapse: collapse; width: 100%; max-width: 1100px;">
+<tr>
+<td align="center" style="padding: 16px; border-bottom: 1px solid #333;">
+<b style="color: #00E0FF;">BACKEND</b>
+</td>
+<td style="padding: 16px; border-bottom: 1px solid #333;">
+<img src="https://skillicons.dev/icons?i=kotlin,java,spring,gradle,nodejs,python" alt="backend"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 16px; border-bottom: 1px solid #333;">
+<b style="color: #7C3AED;">FRONTEND</b>
+</td>
+<td style="padding: 16px; border-bottom: 1px solid #333;">
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,vite,html,css" alt="frontend"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 16px; border-bottom: 1px solid #333;">
+<b style="color: #EC4899;">DATA & STREAMING</b>
+</td>
+<td style="padding: 16px; border-bottom: 1px solid #333;">
+<img src="https://skillicons.dev/icons?i=kafka,postgres,redis,mongodb" alt="data"/>
+&nbsp;
+![Debezium](https://img.shields.io/badge/Debezium-CDC-D32F2F?style=flat-square&logo=debezium&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-Orchestration-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 16px; border-bottom: 1px solid #333;">
+<b style="color: #00E0FF;">AI & AGENTS</b>
+</td>
+<td style="padding: 16px; border-bottom: 1px solid #333;">
+![LangChain](https://img.shields.io/badge/LangChain-Framework-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Protocol-7C3AED?style=flat-square&logoColor=white)
+![Mastra](https://img.shields.io/badge/Mastra-Orchestration-EC4899?style=flat-square&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-AI-D97757?style=flat-square&logoColor=white)
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 16px; border-bottom: 1px solid #333;">
+<b style="color: #7C3AED;">INFRA & CLOUD</b>
+</td>
+<td style="padding: 16px; border-bottom: 1px solid #333;">
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,aws,terraform,githubactions,linux,bash" alt="infra"/>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding: 16px;">
+<b style="color: #EC4899;">OBSERVABILITY</b>
+</td>
+<td style="padding: 16px;">
+![Datadog](https://img.shields.io/badge/Datadog-APM-632CA6?style=flat-square&logo=datadog&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?style=flat-square&logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Traces-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+</td>
+</tr>
+</table>
+
+<br/>
+
+**Architectural Patterns:**
+
+![Event-Driven](https://img.shields.io/badge/Event--Driven-00E0FF?style=flat-square&labelColor=0D1117)
+![DDD](https://img.shields.io/badge/DDD-7C3AED?style=flat-square&labelColor=0D1117)
+![Hexagonal](https://img.shields.io/badge/Hexagonal-EC4899?style=flat-square&labelColor=0D1117)
+![CDC](https://img.shields.io/badge/CDC-00E0FF?style=flat-square&labelColor=0D1117)
+![Microservices](https://img.shields.io/badge/Microservices-7C3AED?style=flat-square&labelColor=0D1117)
+
+</div>
+
+---
+
+<div align="center">
+
+## 📈 GITHUB ANALYTICS
+
+<br/>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Miqueias97&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E0FF&text_color=ffffff&icon_color=7C3AED&ring_color=EC4899&include_all_commits=true)
+
+<br/>
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Miqueias97&theme=tokyonight&hide_border=true&background=0D1117&stroke=7C3AED&ring=00E0FF&fire=EC4899&currStreakLabel=00E0FF&sideLabels=ffffff&dates=ffffff)
+
+<br/>
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Miqueias97&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E0FF&text_color=ffffff&langs_count=10)
+
+<br/>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Miqueias97&bg_color=0D1117&color=00E0FF&line=7C3AED&point=EC4899&area=true&hide_border=true)
+
+<br/>
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Miqueias97&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 DIFFERENTIAL
+
+<table style="margin: 0 auto; border-collapse: collapse; width: 100%;">
+<tr>
+<td width="33%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(0,224,255,0.1), rgba(124,58,237,0.1)); margin: 8px;">
+
+### OPERATION → ARCHITECTURE
+
+I carry production constraints into every design decision.
+
+I've seen what happens when systems fail under load. That experience shapes how I architect.
+
+</td>
+<td width="33%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(124,58,237,0.1), rgba(236,72,153,0.1)); margin: 8px;">
+
+### BUSINESS ∩ ENGINEERING
+
+Code exists in a business context.
+
+I connect product, infrastructure, and operations into a single coherent vision.
+
+</td>
+<td width="33%" style="padding: 24px; border: 1px solid #7C3AED; border-radius: 8px; background: linear-gradient(135deg, rgba(236,72,153,0.1), rgba(0,224,255,0.1)); margin: 8px;">
+
+### LEGACY ⇄ CLOUD-NATIVE
+
+I build the bridge between systems that pay bills and platforms that enable the future.
+
+Surgical migrations without downtime.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+> **Engineering Principles**
 >
 > ```
-> > sistemas precisam ser projetados para falhar de forma controlada.
-> > eventos > requests, sempre que possível.
-> > observabilidade não é luxo, é requisito.
-> > IA é ferramenta, não dogma. orquestre, não venere.
-> > pragmatismo destrona hype todo dia.
-> > a melhor arquitetura é a que continua respirando às 3am.
+> → systems must be designed to fail gracefully
+> → events > requests, always
+> → observability is not optional
+> → pragmatism defeats hype every time
+> → the best architecture still works at 3am
 > ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
+</div>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          CONTACT                                          -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+---
 
-## <samp>` 09 `</samp> &nbsp; OPEN A CHANNEL &nbsp; <kbd>~/contact</kbd>
+<div align="center">
 
-<p align="center">
-  <samp>signals are open. latency is low. encryption is end-to-end.</samp>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/miqueias-pereira/">
-    <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Miqueias97">
-    <img src="https://img.shields.io/badge/GITHUB-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" />
-  </a>
-  &nbsp;
-  <a href="mailto:miqueias.pereira@cobli.co">
-    <img src="https://img.shields.io/badge/EMAIL-Message-EC4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/miqueias-pereira/">
-    <img src="https://img.shields.io/badge/-let's_build_something_that_doesn't_fall_at_3am-00E0FF?style=for-the-badge&labelColor=0D1117" />
-  </a>
-</p>
+## 📡 OPEN A CHANNEL
 
 <br/>
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!--                          FOOTER                                           -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+![Status](https://img.shields.io/badge/SIGNALS-OPEN-00E0FF?style=for-the-badge&labelColor=0D1117)
+![Latency](https://img.shields.io/badge/LATENCY-LOW-7C3AED?style=for-the-badge&labelColor=0D1117)
+![Encryption](https://img.shields.io/badge/ENCRYPTION-E2E-EC4899?style=for-the-badge&labelColor=0D1117)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3500&pause=1200&color=7C3AED&center=true&vCenter=true&width=720&lines=%24+systemctl+status+miqueias.service;%E2%97%8F+miqueias.service+-+Software+Engineer;++++Active%3A+active+(running)+since+2018;++++Loaded%3A+distributed+systems%2C+ai+agents%2C+cloud-native;++++Status%3A+%22shipping+the+future%2C+one+event+at+a+time%22" alt="footer-typing" />
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,30:7C3AED,70:00E0FF,100:0D1117&height=140&section=footer&animation=fadeIn" alt="footer" />
-</p>
+**Let's build something that doesn't fall at 3am.**
 
-<p align="center">
-  <sub><samp>// connection closed · session persisted · see you in the next deploy</samp></sub>
-</p>
+<br/>
 
-<p align="center">
-  <a href="#top"><sub><b>↑ back to command_center</b></sub></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/miqueias-pereira/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GITHUB-FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/Miqueias97)
+&nbsp;
+[![Email](https://img.shields.io/badge/EMAIL-MESSAGE-EC4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:miqueias.pereira@cobli.co)
+
+<br/>
+
+---
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1200&color=7C3AED&center=true&vCenter=true&width=720&lines=%24+systemctl+status+miqueias.service;%E2%97%8F+miqueias.service+-+Software+Engineer;++++Active%3A+active+(running)+since+2018;++++Loaded%3A+distributed+systems%2C+ai+agents%2C+cloud-native;++++Status%3A+%22shipping+the+future%2C+one+event+at+a+time%22)](https://github.com/Miqueias97)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:7C3AED,100:00E0FF&height=4&section=footer" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,30:7C3AED,70:00E0FF,100:0D1117&height=120&section=footer&animation=fadeIn" alt="footer" />
+
+<sub>connection closed · session persisted · see you in the next deploy</sub>
+
+</div>
